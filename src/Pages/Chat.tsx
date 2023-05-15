@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Chat.css";
 
-const apiKey = "your-api-key";
-const endpoint = "https://api.openai.com/v1/chat/completions";
+// const apiKey = "your-api-key";
+const apiKey = "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";
+// const endpoint = "https://api.openai.com/v1/chat/completions";
 
 export const Chat = () => {
   const [messages, setMessages] = useState<{ role: string; content: string }[]>(
